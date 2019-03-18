@@ -1,0 +1,177 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2 {
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.wrapper {
+	padding: 3%;
+	background-color: #e9e9e9;
+}
+.container {
+	max-width: 980px;
+	min-width: 880px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.header-blocks{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.header-img__border {
+	padding: 25px;
+	background-color: #d6efff;
+	margin-bottom: 50px;
+}
+.header-text {
+	margin: 60px 120px 0 0;
+}
+.header-img img {
+	width: 170px;
+	height: 170px;
+}
+.logo {
+	display: inline-block;
+	color: #42aee7;
+	margin-bottom: 5px;
+}
+.logo-proff {
+	text-transform: uppercase;
+	color: #cecfce;
+}
+.header-contact {
+	margin: 65px 65px 0 0;
+}
+.header-contact img {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.phone-blocks, .vk-blocks, .email-blocks  {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.vk-blocks a:hover, .email-blocks a:hover {
+	text-decoration: underline;
+}
+.phone-blocks, .vk-blocks {
+	margin-bottom: 10px;
+}
+.logo-about {
+	margin: 0 50px 0 70px;
+}
+.logo-work {
+	margin: 0 10px 0 35px;
+}
+.logo-skills {
+	margin: 0 3px 0 16px;
+	margin-left: 16px;
+	margin-right: 3px;
+	text-align: right;
+	width: 85%;
+}
+.logo-educ {
+	margin: 0 10px 0 17px;
+}
+.educ-img {
+	margin: 15px 0;
+}
+.educ-img img {
+	width: 120px;
+	height: 110px;
+	margin-right: 30px;
+}
+.educ-img img:hover {
+	-webkit-transition: all ease 1.5s;
+	-o-transition: all ease 1.5s;
+	transition: all ease 1.5s;
+	-webkit-transform: scale(2.0);
+	-ms-transform: scale(2.0);
+	transform: scale(2.0);
+}
+.main-block {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-left: 70px;
+}
+.main-block__text {
+	margin-bottom: 40px;
+	margin-left: 70px;
+}
+.main-block__text a:hover {
+	text-decoration: underline;
+}
+.main-block__text-col {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	margin: 0 0 40px 75px;
+}
+.text-about {
+	margin: 0 0 40px 30px;
+	padding-right: 50px;
+}
+.progress-col {
+	margin-left: 65px;
+}
+.html, .jquery{
+	margin-left: 10px;
+}
+.css {
+	margin-left: 9px;
+}
+.less, .english {
+	margin-left: 7px;
+}
+.js {
+	margin-left: 18px;
+}
+.react {
+	margin-left: 13px;
+}
+.git {
+	margin-left: 34px;
+}
+.logo-exp {
+	margin-bottom: 20px;
+	text-align: right;
+	width: 95%;
+}
+.experience {
+	margin: 15px 0;
+}
+.main-block__text-row {
+	margin-left: 72px;
+}
+.page-footer__text {
+	background-color: #d6efff;
+	padding: 15px;
+}
+.page-footer__text span {
+	display: block;
+	font-size: 12px;
+	text-align: center;
+}
+.container {
+	display: none;
+}
